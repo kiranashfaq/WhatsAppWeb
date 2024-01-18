@@ -1,5 +1,6 @@
 body {
   margin: 0px 0px 0px 0px;
+  box-sizing: border-box;
 }
 .nav1 {
   background-color: #111b20;
@@ -36,7 +37,7 @@ body {
   color: white;
 }
 .chatss {
-  background-color: #30A14E;
+  background-color: #30a14e;
   color: rgb(27, 25, 25);
   border-radius: 50%;
   transform: scale(0.8);
@@ -50,7 +51,7 @@ body {
   height: 5vh;
   background-color: #111b20;
   margin: 0px 0px 0px 0px;
-  position:fixed;
+  position: fixed;
   /* object-position: 5%; */
   top: 9%;
   padding: 1% 0;
@@ -61,10 +62,10 @@ body {
 .but-1 {
   background-color: transparent;
   border: none;
-  color: #30A14E;
+  color: #30a14e;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
-  border-bottom: 3px solid #30A14E;
+  border-bottom: 3px solid #30a14e;
   width: 150%;
   height: 8vh;
 }
@@ -79,8 +80,8 @@ body {
   transition: 1s;
 }
 .but-2:hover {
-  border-bottom: 2px solid #30A14E;
-  color: #30A14E;
+  border-bottom: 2px solid #30a14e;
+  color: #30a14e;
 }
 .body-div {
   width: 100%;
@@ -91,7 +92,7 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
-  padding-top: 7%;
+  padding-top: 5%;
   padding-left: 2%;
   box-sizing: border-box;
 }
@@ -142,6 +143,22 @@ body {
 .unseen-msg {
   margin-top: 15%;
 }
+.chatting {
+    background-color: #278640;
+    width: 4%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    position: fixed;
+    top: 91%;
+    left: 93%;
+  }
+  .hh {
+    transform: scale(1.5);
+  }
+  
 @media screen and (max-width: 768px) {
   .what {
     font-size: 26px;
@@ -170,16 +187,16 @@ body {
     margin-left: 0;
   }
   .chat-main {
-    padding-top: 21%;
+    padding-top: 17%;
   }
-  .chat{
+  .chat {
     margin-top: -2%;
   }
   .chat2 {
     padding-top: 5%;
   }
   .chatss {
-    background-color: #30A14E;
+    background-color: #30a14e;
     color: rgb(27, 25, 25);
     border-radius: 50%;
     transform: scale(0.8);
@@ -197,4 +214,21 @@ body {
     color: rgb(183, 172, 172);
     font-size: 14px;
   }
+  .chatting {
+    background-color: #278640;
+    width: 15%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    position: fixed;
+    top: 89%;
+    left: 81%;
+  }
+  .hh {
+    transform: scale(1.5);
+  }
+  
+
 }
