@@ -2,7 +2,7 @@ body {
   margin: 0px 0px 0px 0px;
 }
 .nav1 {
-  background-color: rgb(27, 25, 25);
+  background-color: #111b20;
   margin: 0px 0px 0px 0px;
   width: 100%;
   height: 10vh;
@@ -48,7 +48,7 @@ body {
   justify-content: space-around;
   width: 100%;
   height: 5vh;
-  background-color: rgb(27, 25, 25);
+  background-color: #111b20;
   margin: 0px 0px 0px 0px;
   position:fixed;
   /* object-position: 5%; */
@@ -85,7 +85,7 @@ body {
 .body-div {
   width: 100%;
   /* height: 100vh; */
-  background-color: rgb(3, 3, 3);
+  background-color: #0f1316;
 }
 .chat-main {
   display: flex;
@@ -145,7 +145,7 @@ body {
 @media screen and (max-width: 768px) {
   .what {
     font-size: 26px;
-    font-weight: 100;
+    font-weight: 400;
   }
   .icons-main-div {
     width: 37%;
