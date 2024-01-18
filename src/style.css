@@ -28,8 +28,8 @@ body {
 .what {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 35px;
+  /* font-size: 35px; */
+  font-weight: 500;
 }
 .m-icon {
   transform: scale(1.5);
@@ -50,10 +50,10 @@ body {
   height: 5vh;
   background-color: rgb(27, 25, 25);
   margin: 0px 0px 0px 0px;
-  position: fixed;
-  top: 10%;
-  padding-bottom: 1%;
-  padding-top: 1%;
+  position:fixed;
+  /* object-position: 5%; */
+  top: 9%;
+  padding: 1% 0;
 }
 .community-div {
   margin-left: -2%;
@@ -76,7 +76,7 @@ body {
   font-size: 25px;
   color: rgb(183, 172, 172);
   font-family: Arial, Helvetica, sans-serif;
-  transition: 0.2s;
+  transition: 1s;
 }
 .but-2:hover {
   border-bottom: 2px solid #2eb12e;
@@ -120,12 +120,12 @@ body {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.g-msg{
-    margin-top: 5%;
+.g-msg {
+  margin-top: 5%;
 }
-.time{
-    color: rgb(183, 172, 172);
-    font-size: 13px;
+.time {
+  color: rgb(183, 172, 172);
+  font-size: 13px;
 }
 .msg-icon {
   display: flex;
@@ -145,20 +145,21 @@ body {
 @media screen and (max-width: 768px) {
   .what {
     font-size: 32px;
+    font-weight: 100;
   }
   .icons-main-div {
-    width: 27%;
+    width: 37%;
   }
   .m-icon {
     transform: scale(1);
   }
   .but-1 {
-    font-size: 20px;
+    font-size: 17px;
     height: 6.5vh;
     width: 120%;
   }
   .but-2 {
-    font-size: 20px;
+    font-size: 17px;
     height: 4.5vh;
     width: 120%;
   }
@@ -171,8 +172,18 @@ body {
   .chat-main {
     padding-top: 21%;
   }
-  .chat2{
+  .chat{
+    margin-top: -2%;
+  }
+  .chat2 {
     padding-top: 5%;
+  }
+  .chatss {
+    background-color: #2eb12e;
+    color: rgb(27, 25, 25);
+    border-radius: 50%;
+    transform: scale(0.8);
+    margin-top: 2%;
   }
   .name-time {
     width: 75%;
